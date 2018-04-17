@@ -1,6 +1,6 @@
 package com.ds.array;
 
-public class ArrayRotationLeft {
+public class ArrayRotationLeftUsingTemp {
 	int a[]= {1,2,3,4,5,6};
 	void print() {
 		for(int i=0;i<a.length;i++) {
@@ -24,7 +24,7 @@ public class ArrayRotationLeft {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayRotationLeft obj= new ArrayRotationLeft();
+		ArrayRotationLeftUsingTemp obj= new ArrayRotationLeftUsingTemp();
 		obj.print();
 		obj.rotateLeft(2);
 		System.out.println();
